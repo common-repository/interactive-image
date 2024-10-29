@@ -1,0 +1,50 @@
+.interactive_image {
+	position: relative;
+}
+
+.interactive_image .the_image {
+	max-width: 100%;
+}
+
+.interactive_image svg {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.interactive_image svg path {
+	opacity: 0.3;
+	cursor: pointer;
+}
+
+.interactive_image svg path:hover {
+	opacity: 0.7;
+}
+
+.interactive_image svg image {
+	cursor: pointer;
+}
+
+.interactive_image .hotspot,
+.interactive_image .zone {
+	display: none;
+}
+
+.ui-tooltip {
+	max-width: 50% !important;
+}
+
+.ui-tooltip .ui-tooltip-content img,
+.ui-tooltip .ui-tooltip-content iframe {
+	max-width: 100%;
+	height: auto;
+}
+
+.ui-widget-shadow {
+	background: #fff !important;
+	opacity: 1 !important;
+}
+
+.ui-tooltip-content p {
+	font-size: 14px;
+}

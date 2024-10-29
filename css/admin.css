@@ -1,0 +1,96 @@
+#ii-list h2 {
+	margin-bottom: 0;
+}
+
+#ii_creator_settings .form_ii {
+	margin-bottom: 20px;
+}
+
+#ii_creator_settings .form_ii label, #form_new_ii label {
+	font-size: 20px;
+	width: 120px;
+	display: inline-block;
+}
+
+#ii_creator_settings {
+	font-size: 20px;
+	line-height: 30px;
+}
+
+#ii_creator_settings input[type=radio] {
+	transform: scale(2);
+}
+
+#ii_creator_settings label {
+	font-size: 30px;
+	margin-right: 20px;
+}
+
+#ii_creator_settings .loading {
+	display: none;
+}
+
+#ii_creator_settings #ii_hotspot, #ii_creator_settings #ii_zone {
+	display: none;
+}
+
+#ii_creator {
+	position: relative;
+	margin-top: 20px;
+}
+
+#ii_creator label[for=see_zones] {
+	font-size: 26px;
+	line-height: 30px;
+}
+
+#ii_creator button.btn {
+	position: absolute;
+	top: -25px;
+	left: 350px;
+}
+
+#ii_creator textarea.canvas-area {
+	display: none;
+}
+
+#ii_creator svg, #ii_creator canvas {
+	position: absolute;
+	top: 0px;
+	left: 0;
+}
+
+#ii_creator svg {
+	display: none;
+}
+
+#ii_creator svg path {
+	opacity: 0.3;
+	cursor: pointer;
+}
+
+#ii_creator svg path:hover {
+	opacity: 0.7;
+}
+
+#ii_creator svg image.draggable {
+	cursor:  move;
+}
+
+#ii {
+	position: relative;
+}
+
+.ui-tooltip {
+	max-width: 50% !important;
+}
+
+.ui-tooltip .ui-tooltip-content img,
+.ui-tooltip .ui-tooltip-content iframe {
+	max-width: 100%;
+}
+
+.ui-widget-shadow {
+	background: #fff !important;
+	opacity: 1 !important;
+}
